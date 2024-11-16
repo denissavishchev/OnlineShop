@@ -33,6 +33,10 @@
 		F28BFA452CE7CA2100226D42 /* FirebaseVertexAI in Frameworks */ = {isa = PBXBuildFile; productRef = F28BFA442CE7CA2100226D42 /* FirebaseVertexAI */; };
 		F28BFA472CE7CC5800226D42 /* Product.swift in Sources */ = {isa = PBXBuildFile; fileRef = F28BFA462CE7CC5800226D42 /* Product.swift */; };
 		F28BFA492CE7DCC900226D42 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = F28BFA482CE7DCC900226D42 /* GoogleService-Info.plist */; };
+		F28BFA4B2CE9109F00226D42 /* FavoritesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F28BFA4A2CE9109F00226D42 /* FavoritesView.swift */; };
+		F28BFA4D2CE910C700226D42 /* CartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F28BFA4C2CE910C700226D42 /* CartView.swift */; };
+		F28BFA4F2CE92CCA00226D42 /* ProductCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F28BFA4E2CE92CCA00226D42 /* ProductCardView.swift */; };
+		F28BFA512CE9328300226D42 /* CardImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F28BFA502CE9328300226D42 /* CardImageView.swift */; };
 		F2EC31E22CE7A9A600406866 /* OnlineShopApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2EC31E12CE7A9A600406866 /* OnlineShopApp.swift */; };
 		F2EC31E42CE7A9A600406866 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2EC31E32CE7A9A600406866 /* ContentView.swift */; };
 		F2EC31E62CE7A9A900406866 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F2EC31E52CE7A9A900406866 /* Assets.xcassets */; };
@@ -42,6 +46,10 @@
 /* Begin PBXFileReference section */
 		F28BFA462CE7CC5800226D42 /* Product.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Product.swift; sourceTree = "<group>"; };
 		F28BFA482CE7DCC900226D42 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
+		F28BFA4A2CE9109F00226D42 /* FavoritesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoritesView.swift; sourceTree = "<group>"; };
+		F28BFA4C2CE910C700226D42 /* CartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartView.swift; sourceTree = "<group>"; };
+		F28BFA4E2CE92CCA00226D42 /* ProductCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductCardView.swift; sourceTree = "<group>"; };
+		F28BFA502CE9328300226D42 /* CardImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardImageView.swift; sourceTree = "<group>"; };
 		F2EC31DE2CE7A9A600406866 /* OnlineShop.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OnlineShop.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F2EC31E12CE7A9A600406866 /* OnlineShopApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnlineShopApp.swift; sourceTree = "<group>"; };
 		F2EC31E32CE7A9A600406866 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -105,6 +113,10 @@
 			children = (
 				F2EC31E12CE7A9A600406866 /* OnlineShopApp.swift */,
 				F2EC31E32CE7A9A600406866 /* ContentView.swift */,
+				F28BFA4A2CE9109F00226D42 /* FavoritesView.swift */,
+				F28BFA4C2CE910C700226D42 /* CartView.swift */,
+				F28BFA4E2CE92CCA00226D42 /* ProductCardView.swift */,
+				F28BFA502CE9328300226D42 /* CardImageView.swift */,
 				F28BFA462CE7CC5800226D42 /* Product.swift */,
 				F2EC31E52CE7A9A900406866 /* Assets.xcassets */,
 				F28BFA482CE7DCC900226D42 /* GoogleService-Info.plist */,
@@ -221,6 +233,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F28BFA4F2CE92CCA00226D42 /* ProductCardView.swift in Sources */,
+				F28BFA4D2CE910C700226D42 /* CartView.swift in Sources */,
+				F28BFA512CE9328300226D42 /* CardImageView.swift in Sources */,
+				F28BFA4B2CE9109F00226D42 /* FavoritesView.swift in Sources */,
 				F2EC31E42CE7A9A600406866 /* ContentView.swift in Sources */,
 				F2EC31E22CE7A9A600406866 /* OnlineShopApp.swift in Sources */,
 				F28BFA472CE7CC5800226D42 /* Product.swift in Sources */,
