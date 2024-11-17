@@ -19,9 +19,11 @@ class AppDelegate: NSObject, UIApplicationDelegate {
 @main
 struct OnlineShopApp: App {
     @UIApplicationDelegateAdaptor(AppDelegate.self) var delegate
+    @StateObject var vm = ViewModel()
     var body: some Scene {
         WindowGroup {
             ContentView()
+                .environmentObject(vm)
         }
     }
 }

@@ -11,6 +11,7 @@ import FirebaseFirestoreCombineSwift
 
 struct ContentView: View {
     
+    @EnvironmentObject var vm: ViewModel
     @FirestoreQuery(collectionPath: "products") var items: [Product]
     var columns = Array(repeating: GridItem(), count: 2)
     
@@ -23,6 +24,9 @@ struct ContentView: View {
                     }
                 }
             }
+            .padding(.horizontal, 10)
+            .background(.secondary.opacity(0.3))
+            .shadow(color: .black.opacity(0.4), radius: 8, x: 5, y: 8)
             .navigationTitle("Stones")
             .toolbar{
                 ToolbarItem(placement: .topBarLeading){
@@ -47,4 +51,5 @@ struct ContentView: View {
 
 #Preview {
     ContentView()
+        .environmentObject(ViewModel())
 }
