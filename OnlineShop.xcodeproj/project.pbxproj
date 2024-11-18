@@ -43,6 +43,11 @@
 		F2EC31E92CE7A9A900406866 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F2EC31E82CE7A9A900406866 /* Preview Assets.xcassets */; };
 		F2F500612CEA5A5200492BAA /* ExtensionText.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2F500602CEA5A5200492BAA /* ExtensionText.swift */; };
 		F2F5006C2CEA671400492BAA /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2F5006B2CEA671400492BAA /* ViewModel.swift */; };
+		F2F5006E2CEBDF4100492BAA /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2F5006D2CEBDF4100492BAA /* DetailView.swift */; };
+		F2F500712CEBE4FB00492BAA /* BackButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2F500702CEBE4FB00492BAA /* BackButtonView.swift */; };
+		F2F500732CEBE6EF00492BAA /* DetailInfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2F500722CEBE6EF00492BAA /* DetailInfoView.swift */; };
+		F2F500752CEBE8F000492BAA /* ProductRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2F500742CEBE8F000492BAA /* ProductRow.swift */; };
+		F2F500772CEBEEB700492BAA /* RemoteControlRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2F500762CEBEEB700492BAA /* RemoteControlRowView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -59,6 +64,11 @@
 		F2EC31E82CE7A9A900406866 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		F2F500602CEA5A5200492BAA /* ExtensionText.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionText.swift; sourceTree = "<group>"; };
 		F2F5006B2CEA671400492BAA /* ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
+		F2F5006D2CEBDF4100492BAA /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
+		F2F500702CEBE4FB00492BAA /* BackButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackButtonView.swift; sourceTree = "<group>"; };
+		F2F500722CEBE6EF00492BAA /* DetailInfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailInfoView.swift; sourceTree = "<group>"; };
+		F2F500742CEBE8F000492BAA /* ProductRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductRow.swift; sourceTree = "<group>"; };
+		F2F500762CEBEEB700492BAA /* RemoteControlRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemoteControlRowView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -120,6 +130,7 @@
 				F2F500682CEA634100492BAA /* Model */,
 				F2F500692CEA635800492BAA /* ViewModel */,
 				F2F5006A2CEA637300492BAA /* Extentions */,
+				F2F5006F2CEBE4DB00492BAA /* Components */,
 				F2EC31E52CE7A9A900406866 /* Assets.xcassets */,
 				F28BFA482CE7DCC900226D42 /* GoogleService-Info.plist */,
 				F2EC31E72CE7A9A900406866 /* Preview Content */,
@@ -143,6 +154,10 @@
 				F28BFA4E2CE92CCA00226D42 /* ProductCardView.swift */,
 				F28BFA502CE9328300226D42 /* CardImageView.swift */,
 				F28BFA4C2CE910C700226D42 /* CartView.swift */,
+				F2F5006D2CEBDF4100492BAA /* DetailView.swift */,
+				F2F500722CEBE6EF00492BAA /* DetailInfoView.swift */,
+				F2F500742CEBE8F000492BAA /* ProductRow.swift */,
+				F2F500762CEBEEB700492BAA /* RemoteControlRowView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -169,6 +184,14 @@
 				F2F500602CEA5A5200492BAA /* ExtensionText.swift */,
 			);
 			path = Extentions;
+			sourceTree = "<group>";
+		};
+		F2F5006F2CEBE4DB00492BAA /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				F2F500702CEBE4FB00492BAA /* BackButtonView.swift */,
+			);
+			path = Components;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -274,10 +297,15 @@
 				F2F500612CEA5A5200492BAA /* ExtensionText.swift in Sources */,
 				F2F5006C2CEA671400492BAA /* ViewModel.swift in Sources */,
 				F28BFA4F2CE92CCA00226D42 /* ProductCardView.swift in Sources */,
+				F2F5006E2CEBDF4100492BAA /* DetailView.swift in Sources */,
 				F28BFA4D2CE910C700226D42 /* CartView.swift in Sources */,
+				F2F500732CEBE6EF00492BAA /* DetailInfoView.swift in Sources */,
 				F28BFA512CE9328300226D42 /* CardImageView.swift in Sources */,
+				F2F500772CEBEEB700492BAA /* RemoteControlRowView.swift in Sources */,
 				F28BFA4B2CE9109F00226D42 /* FavoritesView.swift in Sources */,
 				F2EC31E42CE7A9A600406866 /* ContentView.swift in Sources */,
+				F2F500752CEBE8F000492BAA /* ProductRow.swift in Sources */,
+				F2F500712CEBE4FB00492BAA /* BackButtonView.swift in Sources */,
 				F2EC31E22CE7A9A600406866 /* OnlineShopApp.swift in Sources */,
 				F28BFA472CE7CC5800226D42 /* Product.swift in Sources */,
 			);
