@@ -21,7 +21,10 @@ struct ProductRow: View {
                     }
                     VStack(alignment: .leading, spacing: 20){
                         Text(product.name)
-                        Text("$\(product.price)")
+                        if let quantityInCart = product.quantityInCart{
+                            let sum = quantityInCart * product.price
+                            Text("$\(sum)")
+                        }
                     }
                     Spacer()
                 }
@@ -33,7 +36,6 @@ struct ProductRow: View {
             }
             .shadow(color: .black.opacity(0.1), radius: 7, x: 5, y: 6)
             .padding(.horizontal, 10)
-            .background(.secondary.opacity(0.3))
     }
 }
 

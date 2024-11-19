@@ -48,6 +48,8 @@
 		F2F500732CEBE6EF00492BAA /* DetailInfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2F500722CEBE6EF00492BAA /* DetailInfoView.swift */; };
 		F2F500752CEBE8F000492BAA /* ProductRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2F500742CEBE8F000492BAA /* ProductRow.swift */; };
 		F2F500772CEBEEB700492BAA /* RemoteControlRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2F500762CEBEEB700492BAA /* RemoteControlRowView.swift */; };
+		F2F500792CED1EA100492BAA /* CustomMainButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2F500782CED1EA100492BAA /* CustomMainButton.swift */; };
+		F2F5007B2CED273600492BAA /* CartButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2F5007A2CED273600492BAA /* CartButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -69,6 +71,8 @@
 		F2F500722CEBE6EF00492BAA /* DetailInfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailInfoView.swift; sourceTree = "<group>"; };
 		F2F500742CEBE8F000492BAA /* ProductRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductRow.swift; sourceTree = "<group>"; };
 		F2F500762CEBEEB700492BAA /* RemoteControlRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemoteControlRowView.swift; sourceTree = "<group>"; };
+		F2F500782CED1EA100492BAA /* CustomMainButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomMainButton.swift; sourceTree = "<group>"; };
+		F2F5007A2CED273600492BAA /* CartButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -158,6 +162,7 @@
 				F2F500722CEBE6EF00492BAA /* DetailInfoView.swift */,
 				F2F500742CEBE8F000492BAA /* ProductRow.swift */,
 				F2F500762CEBEEB700492BAA /* RemoteControlRowView.swift */,
+				F2F5007A2CED273600492BAA /* CartButton.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -190,6 +195,7 @@
 			isa = PBXGroup;
 			children = (
 				F2F500702CEBE4FB00492BAA /* BackButtonView.swift */,
+				F2F500782CED1EA100492BAA /* CustomMainButton.swift */,
 			);
 			path = Components;
 			sourceTree = "<group>";
@@ -295,6 +301,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F2F500612CEA5A5200492BAA /* ExtensionText.swift in Sources */,
+				F2F5007B2CED273600492BAA /* CartButton.swift in Sources */,
 				F2F5006C2CEA671400492BAA /* ViewModel.swift in Sources */,
 				F28BFA4F2CE92CCA00226D42 /* ProductCardView.swift in Sources */,
 				F2F5006E2CEBDF4100492BAA /* DetailView.swift in Sources */,
@@ -302,6 +309,7 @@
 				F2F500732CEBE6EF00492BAA /* DetailInfoView.swift in Sources */,
 				F28BFA512CE9328300226D42 /* CardImageView.swift in Sources */,
 				F2F500772CEBEEB700492BAA /* RemoteControlRowView.swift in Sources */,
+				F2F500792CED1EA100492BAA /* CustomMainButton.swift in Sources */,
 				F28BFA4B2CE9109F00226D42 /* FavoritesView.swift in Sources */,
 				F2EC31E42CE7A9A600406866 /* ContentView.swift in Sources */,
 				F2F500752CEBE8F000492BAA /* ProductRow.swift in Sources */,
